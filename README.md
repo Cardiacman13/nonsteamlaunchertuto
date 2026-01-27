@@ -80,7 +80,7 @@ Dans ta bibliothèque Steam, tu verras `Battle.net-Setup.exe`.
 
 ### 5) Retrouver l’exe installé dans le préfixe Proton
 
-Après l’installation, l’exe àà cibler n’est plus l'installateur dans Téléchargements mais le launcher, il est dans le `drive_c` du préfixe Proton.
+Après l’installation, l’exe à cibler n’est plus l'installateur dans Téléchargements mais le launcher nouvellement installé, il est dans le préfixe Proton.
 
 Chemin typique (dans le préfixe) :
 
@@ -88,7 +88,7 @@ Chemin typique (dans le préfixe) :
 .../compatdata/<ID>/pfx/drive_c/Program Files (x86)/Battle.net/
 ```
 
-ID dépend du jeu.
+L'ID dépend du jeu.
 
 Exécutables possibles :
 
@@ -101,7 +101,7 @@ Exécutables possibles :
 
 ### 6) Remplacer la **Cible** et le **Début dans** dans Steam
 
-Maintenant on transforme l’entrée Steam “Battle.net-Setup.exe” en “Battle.net” (le launcher installé).
+Maintenant on change les chemins pour cibler le launcher.
 
 1. Clic droit sur `Battle.net-Setup.exe` → **Propriétés**
 2. Onglet **Raccourci**
