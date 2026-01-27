@@ -23,7 +23,7 @@ Quand tu lances un `.exe` avec Proton, Steam crée un préfixe Windows (un faux 
 ~/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/compatdata/
 ```
 
-Dans `compatdata/`, chaque appli a un dossier numérique (ex : `2448981111`) contenant :
+Dans `compatdata/`, chaque appli a un dossier avec un numéro de préfixe (ex : `2448981111`) contenant :
 
 ```txt
 pfx/drive_c/...
