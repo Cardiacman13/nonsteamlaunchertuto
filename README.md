@@ -14,7 +14,7 @@ Quand tu lances un `.exe` avec Proton, Steam crée un préfixe Windows (un faux 
 
 ### Steam natif (package distro)
 ```txt
-~/.local/share/Steam/steamapps/compatdata/
+~/.steam/steam/steamapps/compatdata/
 ````
 
 ### Steam Flatpak
