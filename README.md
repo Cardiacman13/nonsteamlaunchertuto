@@ -180,7 +180,7 @@ Vidéo démonstration :
 * Teste l’autre exe : `Battle.net.exe` au lieu de `Battle.net Launcher.exe`
 
 ---
-## Il y a toujours des exeptions !
+## Il y a toujours des exceptions !
 
 Selon le launcher il faudra parfois chercher un peu plus, mais normalement ils fonctionne TOUS, si vous avez du mal, n'hésitez pas à mettre un commentaire sous la vidéo de démonstatration et je vous aiderai.
 
