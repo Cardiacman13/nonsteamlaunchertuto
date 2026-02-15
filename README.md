@@ -57,7 +57,7 @@ Parce que **“SSD par défaut” ne veut pas dire “Proton utilisé”** : si 
 Tu peux copier/coller le dossier `compatdata/<ID>` vers la bonne bibliothèque, mais :
 
 * fais-le Steam fermé,
-* et pense à corriger ce qui référence l’ancien emplacement (raccourci, chemin de l’exe, options Steam, etc.).
+* et pense à corriger ce qui référence l’ancien emplacement (raccourci, chemin de l’exe, etc.).
 
 ---
 
