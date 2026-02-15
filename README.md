@@ -50,7 +50,7 @@ Le point clé, c’est que **le préfixe est créé dans la même “bibliothèq
 
 ### Pourquoi c’est parfois “contre-intuitif” ?
 
-Parce que **“SSD par défaut” ne veut pas dire “Proton utilisé”** : si Steam pointe encore vers un Proton situé ailleurs (ou si le jeu a été ajouté/lancé via une autre bibliothèque), le préfixe suivra **ce Proton-là**.
+Parce que contrairement aux jeux que tu installes de ta bibliothèque Steam, pour les launchers tiers que tu ajoutes **“SSD par défaut” ne veut pas dire “Proton utilisé”** : si Steam pointe encore vers un Proton situé ailleurs, le préfixe suivra **ce Proton-là**.
 
 ### Déplacer après coup (possible, mais attention)
 
@@ -61,7 +61,7 @@ Tu peux copier/coller le dossier `compatdata/<ID>` vers la bonne bibliothèque, 
 
 ---
 
-## Tutoriel pas à pas (Battle.net)
+## Tutoriel pas à pas
 
 ### 1) Télécharger le launcher
 
@@ -172,7 +172,7 @@ Clique sur **Jouer** : Battle.net se lance depuis Steam.
 
 ---
 
-## Bonus : ajouter une belle jaquette / bannière / icône (SteamGridDB)
+## Bonus : ajouter une belle jaquette / bannière / icône
 
 Tu peux récupérer des covers, headers, logos, icônes ici :
 
