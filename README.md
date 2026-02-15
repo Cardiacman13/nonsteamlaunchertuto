@@ -29,6 +29,10 @@ Dans `compatdata/`, chaque appli a un dossier avec un numéro de préfixe (ex : 
 pfx/drive_c/...
 ```
 
+### Exeption
+
+Si vous avez un SSD de jeu monter par exemple dans `/mnt/jeux` le proton que vous avez utilisé s'y trouvait alors le launcher sera dans ce ssd, sinon si votre proton était dans votre disque principal il sera dans votre home **même si vous aviez mis votre SSD de jeu par défaut**. Théoriquement rien ne vous empèche de copier coller le dossier à postériori, simplement pensez à corriger le chemin dans Steam !
+
 ---
 
 ## Tutoriel pas à pas (Battle.net)
