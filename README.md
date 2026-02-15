@@ -10,12 +10,13 @@ Ce guide explique comment installer puis lancer un launcher Windows (ici **Battl
 
 ## Où Steam stocke le préfixe Proton (“faux Windows”) ?
 
-Quand tu lances un `.exe` avec Proton, Steam crée un préfixe Windows (un faux `C:`) dans `compatdata/`.
+Quand tu lances un `.exe` avec Proton, Steam crée un **préfixe Windows** (un faux `C:`) dans `compatdata/`.
 
-### Steam natif (package distro)
+### Steam natif (paquet de ta distribution)
+
 ```txt
 ~/.steam/steam/steamapps/compatdata/
-````
+```
 
 ### Steam Flatpak
 
@@ -23,15 +24,40 @@ Quand tu lances un `.exe` avec Proton, Steam crée un préfixe Windows (un faux 
 ~/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/compatdata/
 ```
 
-Dans `compatdata/`, chaque appli a un dossier avec un numéro de préfixe (ex : `2448981111`) contenant :
+Dans `compatdata/`, chaque jeu / application a un dossier portant un **ID numérique** (ex. `2448981111`). À l’intérieur, tu retrouves notamment :
 
 ```txt
 pfx/drive_c/...
 ```
 
-### Exeption
+## Important : l’emplacement dépend du Proton utilisé (et donc de la bibliothèque Steam qui le contient)
 
-Si vous avez un SSD de jeu monter par exemple dans `/mnt/jeux` le proton que vous avez utilisé s'y trouvait alors le launcher sera dans ce ssd, sinon si votre proton était dans votre disque principal il sera dans votre home **même si vous aviez mis votre SSD de jeu par défaut**. Théoriquement rien ne vous empèche de copier coller le dossier à postériori, simplement pensez à corriger le chemin dans Steam !
+Le point clé, c’est que **le préfixe est créé dans la même “bibliothèque Steam” que celle qui contient le Proton que tu as réellement utilisé au lancement**.
+
+* Si tu utilises un Proton installé/présent dans ta bibliothèque sur un SSD (ex. `/mnt/jeux/SteamLibrary`), alors le préfixe et le launcher se retrouveront sur ce SSD, dans :
+
+  ```txt
+  /mnt/jeux/SteamLibrary/steamapps/compatdata/<ID>/pfx/drive_c/...
+  ```
+
+* Si, au moment du lancement, Steam a utilisé un Proton présent dans ta bibliothèque du disque principal (souvent dans ton `HOME`), alors le préfixe sera créé sur le disque principal **même si ton SSD de jeux est défini “par défaut”** :
+
+  ```txt
+  ~/.steam/steam/steamapps/compatdata/<ID>/pfx/drive_c/...
+  ```
+
+  (ou l’équivalent Flatpak)
+
+### Pourquoi c’est parfois “contre-intuitif” ?
+
+Parce que **“SSD par défaut” ne veut pas dire “Proton utilisé”** : si Steam pointe encore vers un Proton situé ailleurs (ou si le jeu a été ajouté/lancé via une autre bibliothèque), le préfixe suivra **ce Proton-là**.
+
+### Déplacer après coup (possible, mais attention)
+
+Tu peux copier/coller le dossier `compatdata/<ID>` vers la bonne bibliothèque, mais :
+
+* fais-le Steam fermé,
+* et pense à corriger ce qui référence l’ancien emplacement (raccourci, chemin de l’exe, options Steam, etc.).
 
 ---
 
