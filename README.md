@@ -2,8 +2,7 @@
 
 Ce guide explique comment installer puis lancer un launcher Windows (ici **Battle.net**) **via Steam + Proton** pour l’avoir directement dans ta bibliothèque Steam.
 
-> ⚠️ Note : certains jeux derrière un launcher peuvent être limités par l’anti-cheat. Ici on traite **l’intégration du launcher**, pas la compatibilité de chaque jeu.
-> Pour les débutants ça ne vous fera pas de mal de lire ça : [Wine, Proton et UMU : Comprendre Le Gaming sur Linux](https://github.com/Cardiacman13/Explications-proton-wine-et-umu) avant de commencer !
+> ⚠️ Note : Pour les débutants ça ne vous fera pas de mal de lire ça : [Wine, Proton et UMU : Comprendre Le Gaming sur Linux](https://github.com/Cardiacman13/Explications-proton-wine-et-umu) avant de commencer !
 
 ---
 
@@ -212,7 +211,7 @@ Vidéo démonstration :
 ---
 ## Il y a toujours des exceptions !
 
-Selon le launcher il faudra parfois chercher un peu plus, mais normalement ils fonctionne TOUS, si vous avez du mal, n'hésitez pas à mettre un commentaire sous la vidéo de démonstatration et je vous aiderai.
+Selon le launcher il faudra parfois chercher un peu plus, mais normalement ils fonctionnent, si vous avez du mal, n'hésitez pas à mettre un commentaire sous la vidéo de démonstatration et je vous aiderai.
 
 ---
 
